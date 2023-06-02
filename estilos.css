@@ -1,0 +1,112 @@
+body{
+    
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/* padroniza a fonte */
+     line-height:1.6 ;/*altura da linha*/
+     
+     
+
+
+
+    
+
+}
+.container{
+
+margin:0 auto; /*tirando a margem*/
+width: 820px; /* largura do contener */
+
+
+}
+.lugar{
+     width:630px;
+     float:left;
+
+     border: 3px solid #6b1616 ; /*cria uma borda */
+
+     border-color: #38353a #111113  #302c2c  #000000; /*muda a cor da borda8 */
+     background-color: #ddd7d7; /*cordo fundo*/
+     margin-bottom: 10px; /*cria uma margem na parte de baixo fora do quadrado */
+     padding: 30px; /*deixa uma borda dentro do quadrado*/
+
+
+
+
+
+    }
+    .lugar h2 {
+
+        border-bottom:1px dashed #000000 ; /* cria uma borda inferior pontilhada*/
+
+
+
+
+
+    }
+    h1 {
+        color:#ca0000   /*troca a cor do h1*/  
+
+
+
+
+
+    }
+    .container h1{
+                  
+        text-align: center;/*centralisa o texto no h1*/
+
+    }
+    .lugar img{
+                 
+        border: 1px solid #b10000;
+
+        float: left;/*alinhamento de imagem*/
+        margin: 10px 10px 0 0;
+        padding:2px;
+        height: 100px; /*altura da imagem*/
+        float: left;
+        width:600; 
+
+                
+
+    }
+
+    .rodape{
+
+       font-size:15px; /*tamanho do texto*/
+       text-align: center; /*centraliza a imagem */
+
+    }
+
+    .lateral{
+    float: right;
+    border:3px solid;
+    background-color:#c5bdbd;
+    padding: 7px;
+    width: 290px;
+    position: absolute;
+    top: 2;
+    transform:translate(240%);
+
+
+    
+    }
+
+    .lateral h3{
+
+        font-size:16px;
+        margin-top: 0;
+
+
+    }
+
+    .lateral ol{
+
+        font-size: 16px;
+
+
+    }
+
+    .clear{
+        clear:both;
+    }
+
